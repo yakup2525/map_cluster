@@ -68,7 +68,7 @@ final class HomeCubit extends BaseCubit<AppState> {
             dummyUsers[j].longitude);
 
         // Eğer iki marker birbirine yakınsa, cluster oluştur 400 km mesafe, dummy datalarda test için uygun
-        if (distance < 400) {
+        if (distance < 250) {
           markerContext.setStrategy(ClusterMarkerStrategy());
           clusterMarkers.add(
             markerContext.createMarker(

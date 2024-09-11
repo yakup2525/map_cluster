@@ -1,6 +1,6 @@
 class StringConstanst {
   static const String appTitle = 'Map Cluster';
-  static const String error = 'Error';
+  static const String error = 'Open location service and try again!';
 
   static const String unknownError = 'Bilinmeyen bir hata oluştu:';
 
