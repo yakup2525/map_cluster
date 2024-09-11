@@ -1,16 +1,16 @@
 # map_cluster
 
-A new Flutter project.
+- Architecture : MVVM + Feature Based
+- Components seperated from each other due to modularity 
+- Strategy pattern used on marker and distance calculation
+- State Manegement Bloc(Cubit)
+- Packages added
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ * build_runner:
+ * flutter_bloc: 
+ * equatable: 
+ * google_maps_flutter: 
+ * carousel_slider: 
+ * logger: 
+ * geolocator: 
+ * shimmer: 
